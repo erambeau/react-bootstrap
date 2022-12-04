@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -35,6 +37,14 @@ function App() {
           </Container>
         </Navbar>
       </header>
+      <main>
+        <Container>
+          <Row>
+            <Col sm={7}>sm=7</Col>
+            <Col sm={5}>sm=5</Col>
+          </Row>
+        </Container>
+      </main>
     </div>
   );
 }
