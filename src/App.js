@@ -6,6 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -38,10 +40,17 @@ function App() {
         </Navbar>
       </header>
       <main>
-        <Container>
+        <Container className="px-4 my-5">
           <Row>
-            <Col sm={7}>sm=7</Col>
-            <Col sm={5}>sm=5</Col>
+            <Col sm={7}>
+              <Image src="https://dummyimage.com/900x400/000/fff" fluid 
+              rounded className=""/>
+            </Col>
+            <Col sm={5}>
+              <h1 className="font-weight-light">Tagline</h1>
+              <p className="mt-4">Finding the perfect tagline is quite a task. You want something that encapsulates who you are, what you’re about, and why people should choose you. You want it to be punchy, impactful, descriptive, memorable, and likeable—and that’s a tall order. Many people look to memorable tagline examples like Nike’s “Just Do It” or Apple’s “Think Different” for inspiration. But what if you aren’t selling elite athletic sportswear or innovative technology? Can you come up with a strong line that captures these elements—even if you’re a mom-and-pop bakery? Absolutely.</p>
+              <Button variant="outline-primary">Call to action</Button>
+            </Col>
           </Row>
         </Container>
       </main>
