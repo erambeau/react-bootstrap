@@ -109,6 +109,11 @@ function App() {
           </Row>
         </Container>
       </main>
+      <footer class="py-5 mt-5 bg-dark">
+        <Container className="px-4">
+          <p class="text-center text-white">Copyright &copy; Your website 2022</p>
+        </Container>
+      </footer>
     </div>
   );
 }
