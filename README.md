@@ -1,7 +1,21 @@
+# Overview
+
+The aim of this short project is to put React and Bootstrap 5 together.
+
+I also wanted to :
+- Learn several classes in Bootstrap
+- Create conventional commits
+
+I was inspired by this video as a tutorial : https://www.youtube.com/watch?v=l2131Rok8XU
+
+And I used a few snippets from https://react-bootstrap.github.io/
+
+# Final result
+![image](https://user-images.githubusercontent.com/55458323/206316604-58b4dc07-390e-4045-b3cc-92a1cdbb279c.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
